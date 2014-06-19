@@ -1,0 +1,40 @@
+\newcommand{\vitalabel}[1]{{\bf #1}}
+
+% \renewcommand{\@nobreakfalse}{}
+
+\renewenvironment{itemize}{\begin{list}{}{
+				  \renewcommand{\baselinestretch}{1}
+				  \small \normalsize
+%				  \let\makelabel=\vitalabel
+				  \renewcommand{\makelabel}{{$\bullet$}}
+				  \setlength{\parsep}{0in}
+				  \setlength{\itemsep}{0ex}
+				  \setlength{\leftmargin}{.5in}
+				  \setlength{\rightmargin}{0in}
+				  \setlength{\labelwidth}{0in}
+				  \setlength{\itemindent}{-.4in}
+%				  \samepage
+					 }
+			  }{\end{list}}
+\newcommand{\dash}{---\ }
+
+\def\maketitle{\begin{center}{\large \bf \@title \par} \vskip 1.5em
+			     \@author \par \vskip 1.5em \end{center}}
+
+\def\@oddfoot{\makebox[0pt][l]{\em Wayne O. Cochran} \hfill \thepage
+					\hfill \makebox[0pt][r]{\em \today}}
+
+\newcommand{\header}[1]{\markright{#1}}
+\def\@oddhead{{\sl \rightmark}\hfil \ }
+
+% \def\header#1{\def\marka{#1}}
+% \def\@oddhead{\oddheadb}
+% \def\oddheada{{\sl Mark A \marka}\hfil \ \def\header##1{\def\markb{##1}}
+% 				 \relax \def\@oddhead{\oddheadb}}
+% \def\oddheadb{{\sl Mark B \markb}\hfil \ \def\header##1{\def\marka{##1}}
+% 				 \relax \def\@oddhead{\oddheada}}
+
+
+% \def\marka{}
+% \def\markb{}
+
