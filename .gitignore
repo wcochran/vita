@@ -2,3 +2,4 @@ vita/
 *~
 *.log
 *.aux
+*.synctex.gz
