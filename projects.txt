@@ -1,0 +1,19 @@
+TrueVR Projects
+
+  * Real-time stereo panorama video stitching using GPU's.
+  * Real-time Color processing of video frames using GPU's.
+  * Video encoding for transmission of live broadcast video.
+  * Research, development and implementation of live video processing
+    pipeline that captures, transforms, projects,
+    rectifies, stitches, encodes, and transmits
+    large stereo panorama streams.
+
+Point-Cloud 
+
+  * IP development of point-cloud processing, encoding, and graphics display.
+  * Graphics rendering of point-cloud data
+  * Compression of point-cloud video
+  * MPEG-I Immersive Video Encoding standards (V-PCC, MIV MPEG-I standards)
+
+
+  
