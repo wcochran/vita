@@ -1,0 +1,16 @@
+* Computer Graphics
+  * Low level rasterization firmware, e.g., filling polygons fast
+  * 3D rendering with classic graphics pipeline (e.g, OpenGL)
+  * Geometric Modeling 
+
+* Image processing
+
+* GPU programming
+
+* Low level computer vision
+  * Dense stereo matching
+
+* Numerical Optimization
+  * Markov Random Fields, Belief Propagation
+
+* Algorithmic design
